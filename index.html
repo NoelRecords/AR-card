@@ -22,7 +22,7 @@
           src="./img/ar-image1.png"
         >
         </a-image>
-                <a-image
+        <a-image
           id="profile"
           position="8 0.3 -2.1"
           width="2"
@@ -33,20 +33,8 @@
           animation__position="property: position; easing: easeInSine;  delay:1500; to: 3.6 0.3 -2.1; dur: 500;"
           src="./img/profile.png"
         >
-      </a-image>
-       
-<!--         <a-image
-          id="ar-image2"
-          position="1 0 2.5"
-          width="4"
-          height="4"
-          rotation="-90 0 0"
-          opacity="0"
-          animation="property: material.opacity; delay: 2000; from:0; to: 1; dur: 500;"
-          src="https://cdn.glitch.global/48f096aa-620e-4ef3-b297-1a4a0fa3619e/ar-image1.png?v=1677220372748"
-          link="href: https://noelrecords-apps.web.app/links.html"
-        ></a-image> -->
-                <a-image
+        </a-image>
+        <a-image
           id="ar-image2"
           position="1 0 2.5"
           width="4"
@@ -55,13 +43,11 @@
           opacity="0"
           animation="property: material.opacity; delay: 2000; from:0; to: 1; dur: 500;"
           src="./img/ar-image2.png"
-          link="href: https://www.google.com/?hl=ja"
+          link="href: https://noelrecords-apps.web.app/links.html"
         >
         </a-image>
       </a-marker>
-
-      <a-entity camera cursor="rayOrigin: mouse"></a-entity>
-      <!--             <a-entity camera cursor="fuse: false; rayOrigin: mouse;"></a-entity> -->
+      <a-entity camera cursor="fuse: false; rayOrigin: mouse;"></a-entity>
     </a-scene>
   </body>
 </html>
